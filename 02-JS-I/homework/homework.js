@@ -28,34 +28,57 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
+<<<<<<< HEAD
   return str;
+=======
+>>>>>>> 2d41a6695d458ee723dc474a54d8dfad2658943c
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
+<<<<<<< HEAD
   return x+y;
+=======
+  var suma=x+y
+  return suma
+>>>>>>> 2d41a6695d458ee723dc474a54d8dfad2658943c
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
   return x-y;
+=======
+  var resta=x-y
+  return resta
+>>>>>>> 2d41a6695d458ee723dc474a54d8dfad2658943c
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
   return x*y;
+=======
+  var producto=x*y
+  return producto
+>>>>>>> 2d41a6695d458ee723dc474a54d8dfad2658943c
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
   return x/y;
+=======
+  var divide=x/y
+  return divide
+>>>>>>> 2d41a6695d458ee723dc474a54d8dfad2658943c
   
 }
 
@@ -63,12 +86,19 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
   if (x===y) {
   return true;
   } else {
     return false;
   }
   
+=======
+  if x=y
+  console.log (true)
+  else (true)
+  console.log (false)
+>>>>>>> 2d41a6695d458ee723dc474a54d8dfad2658943c
 }
 
 function tienenMismaLongitud(str1, str2) {

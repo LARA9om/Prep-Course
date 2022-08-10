@@ -20,7 +20,7 @@ function mayoriaDeEdad(edad) {
     return"Allowed";
   }
   else{
-    return"NotAllowed";
+    return"Not allowed";
   }
 }
   
@@ -72,9 +72,9 @@ function colors(color) {
   //Usar el statement Switch.
   switch(color){
     case "blue":
-      return "this is blue";
+      return "This is blue";
     case "red":
-      return "this is red";
+      return "This is red";
     case "green":
       return "This is green";
     case "orange":
@@ -180,11 +180,11 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  let arraytablaDelSeis=[]
-  for(i=0;i<11;i++){
-    arraytablaDelSeis.push(6*1)
+  let arrayTablaDel6 = []
+  for(i=0;i<11;i++) {
+    arrayTablaDel6.push(6*i)
   }
-  return tablaDelSeis
+  return arrayTablaDel6
 }
 
 function tieneTresDigitos(numero){
